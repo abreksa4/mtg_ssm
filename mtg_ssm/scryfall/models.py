@@ -221,6 +221,7 @@ class ScryLegality(str, Enum):
     NOT_LEGAL = "not_legal"
     RESTRICTED = "restricted"
     BANNED = "banned"
+    TIMELESS = "timeless"
 
 
 class ScryMigrationStrategy(str, Enum):
